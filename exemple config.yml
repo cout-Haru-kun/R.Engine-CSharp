@@ -1,0 +1,14 @@
+#Name of configuration
+"name": "Exemple Configuration"
+#Version of configuration
+"version": "1.0"
+#Author of configuration
+"author": "Me"
+#List of modules in configuration
+"modules":
+    "ExempleModule":"This is an exemple"
+#Module named "ExempleModule" as listed above
+"ExempleModule":
+    #Path to folder of targeted registry key | name of key | type of key | new value
+    "HKEY_LOCAL_MACHINE\THIS\IS\AN\EXEMPLE\DWORD":"uwu":"REG_DWORD":"00000000"
+    "HKEY_LOCAL_MACHINE\THIS\IS\AN\EXEMPLE\SZ":"owo":"REG_SZ":"High"
